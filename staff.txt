@@ -1,0 +1,14 @@
+Username: staff, Password: DCSstaff01, Title: Mr, Firstname: John, Lastname: Davis, Email: john@mail.com
+Username: staff, Password: DCSstaff01, Title: Mr, Firstname: Bill, Lastname: Bloggs, Email: bill@mail.com
+Username: staff, Password: DCSstaff01, Title: Mrs, Firstname: Jane, Lastname: Floss, Email: jane@mail.com
+Username: staff, Password: DCSstaff01, Title: Mrs, Firstname: Janet, Lastname: Jackson, Email: janet@mail.comUsername: staff, Password: DCSadmin01, Title: Mr, Firstname: steve, Lastname: doe, Email: steve@mail.com
+Username: staff, Password: DCSadmin01, Title: Mr, Firstname: steve, Lastname: doe, Email: steve@mail.com
+Username: staff, Password: DCSadmin01, Title: Master, Firstname: mike, Lastname: doe, Email: mike@mail.com
+Username: staff, Password: DCSadmin01, Title: Miss, Firstname: jane, Lastname: doe, Email: janed@mail.com
+Username: staff, Password: DCSadmin01, Title: Miss, Firstname: jane, Lastname: rus, Email: janerus@mail.com
+Username: staff, Password: DCSadmin01, Title: Miss, Firstname: karen, Lastname: davis, Email: karen@mail.com
+Username: staff, Password: DCSadmin01, Title: Ms, Firstname: karen, Lastname: jones, Email: kjones@mail.com
+Username: staff, Password: DCSstaff01, Title: Miss, Firstname: karen, Lastname: smith, Email: ksmith@mail.com
+Username: staff, Password: DCSstaff01, Title: Ms, Firstname: karen, Lastname: errn, Email: kerrn@mail.com
+Username: staff, Password: DCSstaff01, Title: Mrs, Firstname: michelle, Lastname: errn, Email: michelle@mail.com
+Username: staff, Password: DCSstaff01, Title: Mr, Firstname: paul, Lastname: ronson, Email: ron@mail.com

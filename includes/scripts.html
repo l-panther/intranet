@@ -1,0 +1,39 @@
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Jquery -->
+		
+<!-- All Javascript Files -->
+		<script src="scripts/w3.js"></script> <!-- W3 JS -->
+		<script src="scripts/hideNav.js"></script>
+		<script src="scripts/logout.js"></script>
+		<script src="scripts/getDate.js"></script>
+		<script src="scripts/sidenav.js"></script>
+		
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript">
+			google.charts.load('current', {'packages':['bar']});
+			google.charts.setOnLoadCallback(drawChart);
+
+			function drawChart() {
+			  var data = google.visualization.arrayToDataTable([
+				['Year', 'Distinction', 'Merit', 'Pass', 'Fail'],
+				['2018', 700, 220, 300, 80],
+				['2019', 800, 20, 400, 80],
+				['2020', 950, 70, 250, 80]
+			  ]);
+
+			  var options = {
+				  
+				chart: {
+				  subtitle: 'Student results: 2018 - 2020',
+				},
+				bars: 'vertical' // Required for Material Bar Charts.
+			  };
+
+			  var chart = new google.charts.Bar(document.getElementById('bar_chart'));
+
+			  chart.draw(data, google.charts.Bar.convertOptions(options));
+			}
+		  </script>

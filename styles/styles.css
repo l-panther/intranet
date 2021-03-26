@@ -1,0 +1,1211 @@
+/* ========================== RESET ========================== */
+/* Defaults for elements */
+html, body, h1, h2, h3, h4, h5, h6, p, section, article, ol, ul, li, a, table, th, tr, td, dl, dt, dd, form, label, legend, input, img, div, header, section, article, main, aside, footer, nav, span, em, audio, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%; }
+
+/* Display HTML 5 elements */
+section, article, header, footer, nav, aside, main {
+    display: block;
+	background: none;
+    width: 100%; }
+
+/* Width for table */
+table {
+	width: 100%;
+	margin: auto; }
+
+/* Border for elements */
+img, fieldset, form, input { border: none; }
+
+/* Lists */
+ul, ol, li { list-style-type: none; }
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #5389bc; }
+
+/* Text decoration and cursor for links */
+a:hover {
+  /* Set cursor for hover over link */
+  text-decoration: none;
+  cursor: pointer;
+  color: #66a1d7; }
+
+/* Text decoration and cursor for links */
+#primarynav a:focus, a:focus {
+  /* Set cursor for hover over link */
+  text-decoration: underline;
+  color: #66a1d7; }
+
+a:visited {
+  /* Set cursor for hover over link */
+  text-decoration: underline;
+  color: #875e9b; }
+
+body, #page { overflow-x: hidden; }
+
+html, #page { background: #eee; }
+
+/* html body */
+body {
+    font-family: serif, 'New Roman';
+	font-family: 'Averia Serif Libre';
+    color: black;
+    letter-spacing: 2px;
+    font-size: 16px !important;
+    line-height: 1.6;
+    background-color: #ececec; }
+
+#index-main {
+	padding: 10px;
+    width: 100%;
+    margin: auto; }
+
+.main-content { padding: 0px; }
+
+.account-main, .statistics, .statistics .w3-col { background: #eee !important; }
+
+.statistics { 
+	padding: 0px !important;
+	margin-bottom: 20px !important; }
+
+.quickview-stat { 
+	padding: 20px !important; }
+
+.stat li:first-child { 
+	font-size: 2em;
+	margin-bottom: 10px; }
+
+.stat div { 
+	font-size: 0.9em; 
+	border-top: 1px solid lightgrey;
+	padding-top: 10px; }
+
+#pie-container #donutchart { 
+	width: 100% !important;
+	height: 600px !important;
+	max-width: 100% !important; }
+
+#pie-container path text { 
+	font-size: 38px !important; }
+
+#pie-container text { 
+	font-size: 20px !important; }
+
+/* ------------------------------ 
+ACCESSIBILTY ------------------------------ */ 
+#staffGraph { 
+	width: 100%;
+	height: 200px;
+	border: 1px solid black; 
+	text-align: center}
+
+/* ------------------------------ 
+ACCESSIBILTY ------------------------------ */ 
+summary, .skiplink { 
+	position: absolute; 
+	left: -10000px; } 
+
+.skiplink:focus { 
+	position: relative;
+	left: 0; 
+	color: #000; }
+
+/* ------------------------------ 
+SKIPLINKS ------------------------------ */ 
+#toTop { 
+    border-radius: 100%;
+    background: #fff;
+    border: 1px solid #273653;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 50px;
+    height: 50px;
+    padding: 10px; 
+    font-size: 20px; 
+    display: none; 
+    opacity: 0.4; }
+
+#toTop:hover { opacity: 1; }
+
+#toTop a:hover { color: white}
+
+#toTop i { 
+	padding: 2px 2px 5px 0px; 
+	font-size: 24px;
+	color: #273653; }
+
+/* ========================== NAVIGATION STYLING ========================== */
+/* .sticky { 
+	position: fixed;
+	top: 0;
+	width: 100%; }
+
+.sticky2 { 
+	position: fixed;
+	top: 0px;
+	width: 50px; } */
+
+/* primary nav background and font alignment */
+#primarynav {
+    background: #273653;
+	background-size: cover;
+	border-top: 1px solid black;
+	font-family: 'Averia Serif Libre';
+    text-align: center;
+	z-index: 10; }
+
+/* primarynav link color */
+#primarynav a {
+    color: white;
+    font-size: 1em; }
+
+/* primarynav link hover color */
+#primarynav a:hover { color: rgb(57, 152, 168); }
+#primarynav .active { color: rgb(57, 152, 168); }
+
+/* primarynav link current color */
+#primarynav #currentlinks { color: rgb(57, 152, 168); }
+
+#secondarynav-link { padding-top: 40px; }
+
+#secondarynav2 { 
+	padding-top: 40px;
+	margin-top: -20px; }
+
+/* Secondary nav link color */
+#secondarynav, #login, a { color: grey; }
+
+/* Secondary nav hover color*/
+#secondarynav a:hover { color: #273653;	}
+
+/* Secondary h1 */
+#secondarynav h1 { 
+	margin-top: 10px;
+	margin-bottom: -80px;
+	font-size: 0.52em; }
+
+#primarynav { margin-top: -8px; }
+
+#navbar, #navbar a { 
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+	background: #273653; }
+
+#navbar a { 
+	padding: 10px;
+	font-family: 'Averia Serif Libre'; }
+
+#navbar a:last-child { padding-bottom: 15px; }
+
+/* Small nav hover color*/
+#small-nav a:hover { color: white;	}
+
+/* backnav position */
+#backnav  {
+	position: relative;
+    padding: 5px;
+    float: right;
+    background: #273653;
+	margin-right: -10px;
+	margin-top: -10px !important; }
+
+#backnav a {
+    font-size: 0.9em;
+    color: #ffffff; }
+
+#backnav i {
+	margin: 2px;
+    font-size: 20px; }
+
+#backnav:hover { 
+	background: #183f6c;
+	cursor: pointer; }
+
+#small-nav { padding-left: 10px; }
+
+/* ========================== INTRANET LINK ========================== */
+/* Intranet link position and color */
+#intranet-link, #admin-link {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+    padding: 0.3em 0.6em 0.4em 0.6em;
+	overflow: auto;
+	border-top: 1px solid #333333;
+    background-color: #141414;
+	z-index: 10; }
+
+/* Intranet link position and color */
+#intranet-link a , #admin-link a {
+	color: white;
+	font-size: 1em; 
+	font-family: 'Averia Serif Libre'; }
+
+/* Intranet link position and color */
+#intranet-link p {
+	font-size: 0.9em; 
+	margin: 0px;
+	font-family: 'Averia Serif Libre'; }
+
+/* Intranet link position and color */
+#intranet-link a i, #intranet-link2 a i {
+    padding-top: 3px;
+	font-size: 0.9em; 
+	text-align: center; }
+
+#intranet-link:hover, #intranet-link2 a:hover {
+	background-color: rgb(57, 152, 168);
+	font-weight: bold; }
+
+#admin-link {
+	padding: 0px; }
+
+#admin-link i {
+	padding: 4px; }
+
+#admin-link i:hover {
+	background-color: #273653;
+	font-weight: bold; }
+
+/* ========================== HEADER ========================== */
+h1 {
+	text-align: left;
+    font-size: 0.8em;
+	padding-left: 10px; }
+
+#subtitle { 
+	font-size: 1.4em; 
+	font-family: 'Averia Serif Libre';
+	margin-bottom: -30px;
+	padding: 0px;
+	color: black; }
+
+h2 { 
+    color: #000000; 
+    font-family: 'Averia Serif Libre'; }
+
+/* ========================== BANNER ========================== */
+/* Admin banner */
+#adminBanner { background: #273653; }
+
+/* Intranet banner */
+#intranetBanner { background: #2e1826; }
+
+/* Text color and size */
+#adminBanner, #intranetBanner {
+	margin-top: -2px;
+    color: #ffffff;
+    font-size: 1.12em; }
+
+.banner h2 {
+    color: #ffffff;
+	font-family: 'Averia Serif Libre';
+    font-size: 1.2em;
+    margin-left: 20px;
+	width: 60%; }
+
+#intranetBanner i { padding-bottom: 15px; }
+
+.w3-dropdown-hover { font-size: 0.8em; }
+
+.w3-dropdown-hover #user { 
+	background: #273653 !important; }
+
+.w3-dropdown-hover #userIntranet { 
+	background: #2e1826 !important; }
+
+/* ==========================BREADCRUMBS ========================== */
+/* Admin login page */
+#breadcrumb, #breadcrumb2 { 
+	padding-left: 10px;
+	margin: 10px 0px 20px 0px; 
+	font-size: 0.9em; }
+
+/* Admin login page */
+#breadcrumb a { color: #273653; }
+
+/* Intranet login page */
+#breadcrumb2 a { color: #400d2e; }
+
+#breadcrumb a, #breadcrumb2 a, #intranethome, .current { font-size: 1em; }
+
+/* Current link color */
+.current { 
+	font-style: italic;
+	color: grey; }
+
+/* ========================== HEADER STYLING ========================== */
+h2 {
+    font-size: 1.2em;
+    margin-top: -0.019em;
+    padding: 5px 0px 5px 0px }
+
+/* ========================== FOOTER STYLING ========================== */
+/* Footer styling */
+#footer {
+    background-color: #4f5962;
+	padding: 20px;
+    clear: both; }
+
+/* Text color */
+#footer p {
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-left: 10px; }
+
+#footertext { margin-top: 20px; }
+
+/* Icon styling for icons in footer */
+.icon {
+    width: 15px;
+    height: 15px; 
+	margin-bottom: 10px; 
+	margin-right: 5px; }
+
+footer .social-links img {
+  width: 20px;
+  margin: 20px 5px 0px 5px;
+  border-radius: 5px;
+  opacity: 0.4;
+}
+
+footer img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+footer #copyright {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  color: #777;
+  font-size: 1em;
+}
+
+/* ========================== TEXT STYLING ========================== */
+::placeholder { 
+	color: #989898; 
+	letter-spacing: 1.5px;}
+
+/* Bold text */
+.bold_text {
+    font-weight: bold;
+    color: black; }
+
+/* Form requirements */
+.red_text {
+    color: #ff0202;
+    font-size: 0.8em; }
+
+/* form errors */
+.error_text {
+    padding-top: 1em;
+    color: brown;
+	font-size: 0.9em;
+    font-style: italic; }
+
+/* PHP errors */
+form span {
+    color: #ff0202;
+    white-space: nowrap; }
+
+/* ========================== HOME PAGE ==========================  */
+/* Introduction top margin */
+#intro { 
+	text-align: justify;
+	padding: 40px 20px 20px 20px; }
+
+#index-container { margin-bottom: 20px; }
+
+#index-container div { padding: 0px; }
+
+article { border-radius: 3px; }
+
+/* Container for articles */
+.article_container {
+    border: 1px solid lightgrey;
+	margin-bottom: 10px;
+	background-color: #fafafa;
+	border-radius: 5px;
+    display: block;
+    margin-bottom: 20px; }
+
+.article_container h2 { 
+	margin: 0px;
+	padding: 10px; 
+	font-size: 1.3em;
+	color: #ffffff; }
+
+/* Articles */
+#article1_bkg, #article2_bkg, #article3_bkg { 
+	width: 100%;  
+	border-radius: 3px 3px 0px 0px; }
+
+/* Article 1 */
+#article1_bkg {	background-color: #588f62; }
+
+/* Article 2 */
+#article2_bkg { background-color: #4f82ad; }
+
+/* Article 3 */
+#article3_bkg { background-color: rgb(112, 37 ,90); }
+
+/* Article h2 alignment */
+.article_container h2 {
+	font-family: 'Averia Serif Libre';
+    text-align: center;
+	border-radius: 10px 10px 0px 0px;
+    color: white; }
+
+/* Article link color */
+.article_container a { color: #4f82ad }
+
+/* Article image position */
+.article_container img  {
+	width: 90%;
+    margin: 6% 3% 0% 5%; }
+
+/* Article text padding */
+.article_container p { 
+	padding: 20px; 
+	margin-bottom: 0px; }
+
+.paragraph-border { border-bottom: 1px solid lightgrey; }
+
+/* Article 3 list padding */
+#article3_list li {
+    padding-left: 1em; }
+
+/* ========================== FORM STYLING ========================== */
+.title_margin { margin-top: 1.7em; }
+
+/* Text styling for notice to user */
+.italictext {
+    padding-top: 1.5em;
+    text-align: center;
+    font-style: italic; }
+
+/* Form styling */
+form {
+    width: 100%;
+    margin: auto;
+    padding: 20px 40px 20px 40px;
+    background: #f2f2f2;
+    margin-bottom: 20px; }
+
+/* Legend size */
+legend {
+    font-size: 1em;
+    font-weight: bold;
+	font-family: 'Rubik';
+	margin-top: 30px;
+    text-align: ;
+    margin: auto; }
+
+.controlgroup {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1.3em; }
+
+form label { 
+	background: none;
+	font-weight: 100;}
+
+#adminform .col-30 {
+    float: left;
+    width: 20%; 
+	font-size: 4em; }
+
+.col-60 {
+    float: right;
+    width: 80%; }
+
+.controlgroup:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* Input styling */
+input[type="text"], [type="password"], .w3-select, option {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 3px; }
+
+/* Submit button styling */
+.submit-button { text-align: center; }
+
+ input[type="submit"] {
+    height: 40px;
+    font-size: 0.9em;
+   	border: none;
+	margin: 30px 0px 20px 0px;
+    border-radius: 3px;
+	font-family: 'Rubik' !important; }
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    cursor: pointer;
+    font-weight: bold; }
+
+/* ========================== ADMIN LOGIN PAGE ========================== */
+#adminform, #staffform { width: 95%; }
+
+/* Form Legend */
+form legend {
+	display: none !imortant; 
+	font-weight: 900; }
+
+/* Form Legend */
+#adminform legend {
+	color: #273653; }
+
+
+/* Form border */
+#adminform {
+	border-radius: 4px;
+    border: 1px solid lightgrey;
+	margin-top: 60px; }
+
+/* Button background and text color */
+#adminLogin {
+    background-color: #273653;
+	font-family: 'Averia Serif Libre';
+    color: #ffffff; }
+
+/* Button shadow hover color */
+#adminLogin:hover { box-shadow: 0px 0px 3px 1px #273653; }
+
+/* ========================== STAFF LOGIN PAGE ========================== */
+/* Legend color */
+#staffform legend { color: #2e1826; }
+
+/* Form border */
+#staffform {
+	border-radius: 4px;
+    border: 1px solid lightgrey;
+	margin-top: 60px; }
+
+.w3-col { width: 100%; }
+
+.w3-rest { width: 100%; }
+
+/* Button color */
+#stafflogin {
+    background-color: #2e1826;
+	font-family: 'Averia Serif Libre';
+    color: #ffffff; }
+
+/* Button shadow hover color */
+#stafflogin:hover {
+    border: 1px solid purple;
+    box-shadow: 0px 0px 3px 1px #2e1826; }
+
+/* ========================== ADD STAFF PAGE ========================== */
+#addStaffBtn { 
+	font-size: 1em;
+	background: #d5d5d5;
+	margin-bottom: 20px;
+	color: #141414 ;
+	border-radius: 5px; 
+	border: 1px solid #adadad; }
+
+#addStaffBtn:hover { 
+	background: #7d9b6e;
+	border: 1px solid #adadad;
+	box-shadow: none;
+	color: #fff; }
+
+/* Text styling for introduction */
+#register-main {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey; }
+
+.quick_access { padding: 30px 40px !important; }
+
+.quick_access section { background: #eee; }
+
+#staff-intro h2 { font-size: 1.2em; }
+
+#staff-intro p { margin-top: -12px;; }
+
+/* Add staff form width and border */
+#register-form {
+	background: #fff;
+    border: 1px solid lightgrey;
+	border-radius: 3px;
+    width: 100%;
+	padding: 20px 20px 0px 20px; }
+
+/* Legend color */
+#register-form legend {
+    color: #273653;
+	border-bottom: none;
+	margin: 0px 0px 40px 0px;
+	font-size: 1.6em;
+	width: 100%; }
+
+input { border: 1px solid lightgrey; }
+
+.w3-select { cursor: pointer;}
+
+#adminform .w3-input:focus, #register-form .w3-select:focus, #register-form .w3-input:focus { border: 1px solid #273653; }
+
+#staffform .w3-input:focus { border: 1px solid #2e1826; }
+
+/* Add staff button hover color */
+#addstaff {
+	width: 100%;
+    margin-top: 10px;
+    background-color: #273653;
+    border: 1px solid #000;
+    color: #ffffff; }
+
+/* add button hover color */
+#addstaff:hover { box-shadow: 0px 0px 3px 1px #273653; }
+
+/* ========================== LOGGED OUT ========================== */
+/* Logged out color */
+#loggedOut {
+	width: 100%;
+	text-align: center;
+	color: lightgreen;
+    padding: 0.3em;
+    background-color: black; }
+
+/* Logged out p */
+#loggedOut p { margin: 0; }
+
+/* =========================== CONFIRM LOGIN and REGISTER =========================== */
+/* Fade in of image: Admin and Intranet page  */
+.secureImg, .loggedText, .loggedText2, #popup-image {
+    width: 10%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeinout 3s linear forwards;
+    opacity: 0; }
+
+#popup-confirm { 
+	display: none;
+	margin-top: 5px; 
+	margin-bottom: 5px; }
+
+#popup-confirm h3 { margin-top: 15px; }
+
+/* ========================== ADMIN & INTRANET PAGE ========================== */
+#add-staffList, #view-staffList {
+	display: none;
+}
+
+.w3-sidenav { 
+	background: #3f3f3f;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	box-shadow: -1px 0px 6px 0px #3f3f3f;
+	font-size: 0.9em;
+	width: 260px;
+	z-index: 100; }
+
+.sidenav-menu { 
+	display: inline;
+	float: left;
+	width: 30px;
+	background: #3f3f3f; 
+	background: #adadad; 
+	color: #fff; }
+
+.side_menu, .w3-sidenav { height: 100vh !important; }
+
+.side_menu li:first-child, .w3-sidenav li:first-child { 
+	padding: 20px;
+	background: black; }
+
+.w3-sidenav li { 
+	padding: 15px !important; }
+
+.side_menu li:last-child, .w3-sidenav li:last-child { 
+	margin-top: 20px;
+	border-top: 1px solid #141414;
+	border-radius: 0px; }
+
+.side_menu li img, .w3-sidenav li img { 
+	width: 60%; 
+	border-radius: 100%;
+	border: 1px solid #adadad; }
+
+.w3-sidenav li img { 
+	width: 150px; 
+	margin: auto !important; }
+
+.w3-sidenav a { 
+	color: #fff;
+	padding: 0px; }
+
+#closeSidenav i { font-size: 26px; }
+
+#closeSidenav i:hover { cursor: pointer; }
+
+#user-login li { width: 50px !important; }
+
+.w3-navbar header { background: #000; }
+
+#user-login i { 
+	width: 100%;
+	overflow: auto;
+	font-size: 20px !important; 
+	color: #fff !important; }
+
+.w3-dropdown-black:hover { background: black !important; }
+
+/* Admin main page position with fade in */
+#main-admin {
+    width: 100%;
+    font-family: 'Averia Serif Libre';
+    animation: fadeinout 2s linear forwards;
+    opacity: 1; }
+
+#donutchart { width: 400px; }
+
+/* Fade timing */
+@keyframes fadeinout {
+      0% { opacity: 0; }
+      50% { opacity: 1; }}
+
+/* Left column */
+.side_menu {  
+	background: #3f3f3f; }
+
+/* Left column styling */
+.side_menu ul li, .w3-sidenav ul li {
+	color: #f2f2f2;
+    border-left: none;
+	font-size: 1em;
+    border-right: none;
+    padding: 20px 20px 10px 20px;
+    width: 100%; }
+
+.side_menu ul a {
+	color: #f2f2f2; }
+
+/*
+.w3-sidenav li a:first-child { 
+	width: 30px; 
+	padding: 0px; 
+	display: inline}
+*/
+
+.side_menu li i {
+    margin-top: 5px ;
+    margin-right: 3px;
+	color: #f2f2f2; }
+
+/*  Menu icon position */
+i, .side_menu .menu-icon, .w3-sidenav .menu-icon { 
+	float: right; }
+	
+.side_menu .menu-icon, .w3-sidenav li .menu-icon {
+    padding: 0.2em 0.8em 0.2em 0.8em;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold; }
+
+/* Menu-icons background color: Intranet page */
+.menu-icon-admin-messages { background-color: #536282; }
+
+/* Menu-icons background color: Intranet page */
+.menu-icon-staff-messages { background-color: #79556c; }
+
+/* Menu-icons background color: Intranet page */
+.menu-icon-reports { 
+	background-color: #eeeeee; 
+	color: #3f3f3f !important; }
+
+/* Menu-icons background color: Intranet page */
+.menu-icon-issues { background-color: #9f3818; }
+
+.account-main .quick_access {
+	color: #000000;
+	  /* Right column container */
+	padding: 0px 10px 0px 10px; }
+
+.account-main button:hover { 
+	background: #273653;
+	color: #fafafa; }
+
+/* Quick access h2 */
+.quick_access h2 { 
+	font-family: 'Averia Serif Libre'; 
+	font-family: 'Rubik'; 
+	padding: 30px 10px 20px 0px;
+	margin: 0px;
+	font-size: 1.1em; }
+
+/* Right column articles */
+.quick_access div {
+	background-color: #fafafa;
+    margin-bottom: 1em;
+    height: auto; }
+
+.stat-container { 
+	padding: 20px; }
+
+.stat { 
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	padding: 20px 20px 0px 20px; }
+
+.stat li { 
+	display: inline; }
+
+.stat li:first-child { 
+	font-size: 20px;
+	padding: 20px;
+	float: left}
+
+.stat li:last-child { 
+	font-size: 60px;}
+
+
+.options div { margin: 0px; }
+
+/* Background color of article h3 */
+article h3 {
+	border-radius: 5px 5px 0px 0px;
+    padding: 10px 0px 5px 10px;
+    margin-top: -1px;
+    font-size: 0.8em; }
+
+.list_buttons { margin-bottom: 10px; }
+
+/* Display content side-by-side */
+.list_buttons a, .list_buttons li { 
+	display: inline;
+	padding-left: 10px; }
+
+/* Width of buttons: Admin page  */
+.access_button, #add_button {
+    width: 13%;
+    margin: 8px;
+	filter: opacity(0.3); }
+
+/* Width of buttons: Admin page  */
+#add_button { filter: opacity(1); }
+
+.module {
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+	margin-bottom: 20px;
+}
+
+.module span {
+    font-size: 1em;
+    font-style: italic;
+    color: grey; }
+
+.module span:hover {
+    font-style: italic;
+	text-decoration: underline;
+    color: rgb(112, 37 ,90); }
+
+/* List container: Intranet page */
+.module li {
+    display: inline-block;
+    width: 100%; }
+
+/* Image position and size: Intranet page */
+.moduleImg {
+    width: 50px;
+	max-width: 150px;
+    float: left;
+    margin-top: 20px;
+    padding-left: 10px; }
+
+/* Text position and width: Intranet page */
+.moduleText {
+    width: 80%;
+	font-size: 0.9em;
+    padding-top: 1em;
+    float: right; }
+
+#staff-table { 
+	margin-bottom: 0px; }
+
+#staff-table .view-table-hd { 
+	background: #273653;
+	color: #fff; }
+
+#staff-table td { background: #fff; }
+
+#staff-table i { color: red; }
+
+/* -------------------------------- Module Results ------------------ */
+#intranethome {
+    text-decoration: none;
+    color: rgb(112, 37 ,90); }
+
+.current { color: rgb(137, 146, 148); }
+
+#scroll caption { padding-top: 0px; }
+
+#scroll caption p { text-align: center; }
+
+#resultsTitle {
+    font-size: 1.2em;
+	font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    color: black; }
+
+.year { 
+	background: #c3bfc1 !important;
+	font-weight: 600; }
+
+#scroll {
+    overflow: scroll;
+    width: 100%;
+	margin: auto;
+    border-radius: 3px;
+    height: auto; }
+
+table {
+    border: 1px solid lightgrey;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+	font-size: 0.9em;
+	margin-bottom: 5em; }
+
+caption { display: none; }
+
+#scroll td {
+    border: 1px solid lightgrey;
+    text-align: left;
+    padding: 8px;
+	color: #2a2a2a;
+	background-color: #ffffff;
+	text-align: center; }
+
+#scroll th {
+	background-color: #7f6473;
+	background-color: #2e1826;
+	background-color: #bfb9bd;
+	background-color: #5d5d5d;
+	text-align: center;
+	border-right: 1px solid lightgrey;
+	color: #fff;
+	padding: 15px; }
+
+/* -------------------------------- Login and Log out display ------------------ */
+/* Color and styling of border */
+#user-login {
+	background: #141414; 
+	padding: 0px !important;
+	color: #f2f2f2 !important;
+    border-top: none;
+	overflow: hidden !important; }
+
+.w3-dropdown-content a { 
+	margin-right: 5px; 
+	border: 1px solid lightgrey; }
+
+#user-login i { font-size: 22px !important; }
+
+#user-login li a:hover {
+	color: #b20000; }
+
+.glyphicon-log-in { 
+	color: #273653;
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 0px 20px 10px 0px; }
+
+.logoutImg { width: 30px; }
+
+/* PHP variable for user name */
+#login_display span { color: green; }
+
+.w3-modal header, .w3-modal h1 { 
+	background: #273653;
+	color: #f2f2f2; }
+
+.w3-modal h1 { 
+	padding: 10px; }
+
+.w3-modal footer { 
+	padding: 10px 10px 5px 0px; }
+
+.view-staff:hover { cursor: pointer; }
+
+/* =========================== MEDIA QUERIES =========================== */
+@media only screen and (min-width: 550px) {
+	
+	#bar-container #bar_chart { 
+		width: 600px !important; 
+		max-width: 900px !important; }
+	
+    /* Body font */
+    body { font-size: 18px !important; }
+    
+	/* Secondary h1 */
+	#secondarynav h1 { 
+		margin-bottom: 10px;
+		font-size: 0.9em; }
+	
+	#index-main, .account-main { font-size: 15px; }
+	
+	#index-container div { 
+		margin-bottom: 20px; 
+		padding: 5px; }
+	
+	/* Container for articles */
+	.article_container {
+		display: block;
+		float: none;
+		width: 100%;
+		margin: auto;
+        margin-bottom: 10px; }
+	
+	/* Article text padding */
+	.article_container p { 
+		padding: 20px; 
+		margin-bottom: 0px; }
+	
+	div .paragraph-border { padding: 20px; }
+
+    .article_container:last-child { margin-bottom: 0em; }
+	
+	/* Intranet link position and color */
+	#intranet-link a { font-size: 1.2em;  }
+	
+	#adminform legend, #staffform legend { 
+		font-size: 1.4em; }
+	
+	/* Width of buttons: Admin page  */
+	.account-main .quick_access {
+		padding: 0px 10px 20px 10px;
+		float: right }
+	
+	.account-main .options h2, .module h2 { 
+		background: #eee !important;
+		padding: 10px; }
+	
+	/* Quick access h2 */
+	.quick_access h2 { 
+		font-size: 1.4em; }
+	
+	.options div, .module { background: #fff !important; }
+	
+	/* Width of buttons: Admin page  */
+	.access_button, #add_button {
+		width: 60px;
+		margin: 10px 15px 10px 10px; }
+	
+    /* user logout position */
+    #backnav  {
+        padding: 8px 8px 8px 10px;
+        margin-right: -10px;
+        margin-top: -10px; }
+    
+	.moduleImg { width: 13%; }
+	
+	#adminform, #staffform { width: 75%; }
+	
+	.side_menu { 
+        margin-top: 0px;
+		border-radius: 0px 0px 5px 5px;
+		height: 100vh;
+		padding: 0px; }
+
+	/* Menu-icons background color: Intranet page */
+	.side_menu_staff { background-color: #2e1826; }
+    
+    /* Right column container */
+	.quick_access { padding: 0px 10px 0px 35px; }	
+	
+	table { font-size: 1em; }
+}
+
+@media only screen and (min-width: 991px) {
+	
+	#bar-container { padding: 20px !important; }
+	
+	#bar-container #bar_chart { max-width: 900px !important; }
+	
+    /* Body font */
+    body { font-size: 20px !important; }
+    
+	#secondarynav h1 { font-size: 1em; }
+	
+	#secondarynav #secondarynav-link { margin-top: -12px; }
+	
+	.main-content {
+		width: 100%;
+		max-width: 70em;
+		margin: auto; }
+	
+	.account-main {
+		width: 100%;
+		max-width: 100em;
+		z-index: 1;}
+
+	#intranetBanner p { 
+		font-size: 0.8em; 
+		color: lightgrey; }
+
+	#index-container div { padding: 5px; }
+	
+	#adminform, #staffform { 
+		width: 500px;
+		max-width: 500px;
+		padding: 40px 30px 10px; }
+	
+	#adminform legend, #staffform legend { 
+		font-size: 1.5em; }
+	
+	/* Width of buttons: Admin page  */
+	.account-main .quick_access {
+		width: 75%;
+		padding: 20px 10px 20px 30px; }
+	
+	/* Quick access h2 */
+	.quick_access h2 { 
+		font-size: 1.5em; }
+	
+	/* Width of buttons: Admin page  */
+	.access_button, #add_button {
+		width: 100px;
+		margin: 10px 20px 10px 10px; }
+	
+	/* Rigth column container */
+	.quick_access i { background: white; }
+	
+	#backnav { margin-top: -1px; }
+	
+	.side_menu { width: 800px; height: 100vh !important; }
+	
+	.side_menu ul li:first-child { border-top: none; }
+	
+	.side_menu ul li { font-size: 1.2em; }
+	
+	#register-form .controlgroup {
+		width: 90%;
+		margin: auto; }
+	
+	/* Add staff form width and border */
+	#register-form { padding: 30px 30px 0px 30px; }
+	
+	footer { font-size: 0.9em; }
+	
+	.w3-modal-content { width: 50%; }
+
+}
